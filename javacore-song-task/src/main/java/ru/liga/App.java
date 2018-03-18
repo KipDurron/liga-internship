@@ -10,10 +10,12 @@ import ru.liga.HW.input_interface.InLoggers;
 import ru.liga.HW.input_interface.TextAnalizeFile;
 import ru.liga.HW.input_interface.TransMidi;
 import ru.liga.songtask.content.Content;
-import ru.liga.songtask.domain.Note;
 import ru.liga.songtask.domain.SimpleMidiFile;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of dce88ec... for revert
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -23,12 +25,15 @@ import java.util.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 //////
+<<<<<<< HEAD
 
 import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+=======
+>>>>>>> parent of dce88ec... for revert
 
 /**
  * Всего нот: 15
@@ -60,7 +65,10 @@ public class App {
     public static void main(String[] args) {
 
         SimpleMidiFile simpleMidiFile = new SimpleMidiFile(Content.ZOMBIE);
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of dce88ec... for revert
 
     if (args.length==3)
     {
@@ -93,6 +101,9 @@ public class App {
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of dce88ec... for revert
     }
 }
